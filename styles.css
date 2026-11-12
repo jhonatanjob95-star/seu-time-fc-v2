@@ -162,7 +162,7 @@ body {
 }
 
 .shield-img {
-    width: 520px;
+    width: 780px;
     max-width: 100%;
     height: auto;
     filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7));
@@ -339,7 +339,7 @@ h2 {
     }
 
     .shield-img {
-        width: 360px;
+        width: 540px;
         margin-top: 2rem;
     }
 
@@ -395,6 +395,6 @@ h2 {
     }
 
     .shield-img {
-        width: 280px;
+        width: 420px;
     }
 }
