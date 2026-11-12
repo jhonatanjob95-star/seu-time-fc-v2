@@ -162,8 +162,8 @@ body {
 }
 
 .shield-img {
-    width: 780px;
-    max-width: 100%;
+    width: 1560px;
+    max-width: 95%;
     height: auto;
     filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7));
     animation: float 4s ease-in-out infinite;
@@ -339,7 +339,8 @@ h2 {
     }
 
     .shield-img {
-        width: 540px;
+        width: 1080px;
+        max-width: 95%;
         margin-top: 2rem;
     }
 
@@ -395,6 +396,7 @@ h2 {
     }
 
     .shield-img {
-        width: 420px;
+        width: 840px;
+        max-width: 95%;
     }
 }
