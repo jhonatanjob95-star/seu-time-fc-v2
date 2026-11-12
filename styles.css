@@ -49,9 +49,10 @@ body {
 }
 
 .header-logo {
-    height: 55px;
+    height: 70px;
     width: auto;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+    background: transparent;
 }
 
 .nav {
@@ -161,10 +162,10 @@ body {
 }
 
 .shield-img {
-    width: 380px;
+    width: 520px;
     max-width: 100%;
     height: auto;
-    filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7));
     animation: float 4s ease-in-out infinite;
 }
 
@@ -338,7 +339,7 @@ h2 {
     }
 
     .shield-img {
-        width: 280px;
+        width: 360px;
         margin-top: 2rem;
     }
 
@@ -372,7 +373,7 @@ h2 {
     }
 
     .header-logo {
-        height: 40px;
+        height: 55px;
     }
 }
 
@@ -390,6 +391,10 @@ h2 {
     }
 
     .header-logo {
-        height: 35px;
+        height: 48px;
+    }
+
+    .shield-img {
+        width: 280px;
     }
 }
