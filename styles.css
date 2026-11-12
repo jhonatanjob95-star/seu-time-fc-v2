@@ -102,10 +102,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 5%;
+    padding: 3rem 5% 4rem;
     background: linear-gradient(135deg, var(--blue-deep) 0%, var(--blue-royal) 50%, #001233 100%);
     position: relative;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .hero::before {
@@ -161,21 +161,23 @@ body {
     z-index: 1;
     display: flex;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .shield-img {
-    width: 95vw;
-    max-width: 95%;
+    width: 85vw;
+    max-width: 85%;
     height: auto;
-    transform: scale(1.8);
+    transform: scale(1.45);
     transform-origin: center center;
     filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7));
     animation: float 4s ease-in-out infinite;
+    margin-bottom: 1.5rem;
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0) scale(1.8); }
-    50% { transform: translateY(-12px) scale(1.8); }
+    0%, 100% { transform: translateY(0) scale(1.45); }
+    50% { transform: translateY(-10px) scale(1.45); }
 }
 
 .elenco, .noticias {
@@ -335,7 +337,8 @@ h2 {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 2rem 5%;
+        padding: 2rem 5% 3rem;
+        overflow: visible;
     }
 
     .hero h1 {
@@ -343,9 +346,10 @@ h2 {
     }
 
     .shield-img {
-        width: 95vw;
-        transform: scale(1.6);
+        width: 80vw;
+        transform: scale(1.35);
         margin-top: 1rem;
+        margin-bottom: 2rem;
     }
 
     .nav {
@@ -400,7 +404,8 @@ h2 {
     }
 
     .shield-img {
-        width: 95vw;
-        transform: scale(1.5);
+        width: 75vw;
+        transform: scale(1.3);
+        margin-bottom: 2.5rem;
     }
 }
