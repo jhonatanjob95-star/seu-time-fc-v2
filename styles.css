@@ -102,7 +102,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 4rem 5%;
+    padding: 2rem 5%;
     background: linear-gradient(135deg, var(--blue-deep) 0%, var(--blue-royal) 50%, #001233 100%);
     position: relative;
     overflow: hidden;
@@ -159,19 +159,23 @@ body {
 
 .hero-shield {
     z-index: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .shield-img {
-    width: 1560px;
+    width: 95vw;
     max-width: 95%;
     height: auto;
+    transform: scale(1.8);
+    transform-origin: center center;
     filter: drop-shadow(0 15px 40px rgba(0, 0, 0, 0.7));
     animation: float 4s ease-in-out infinite;
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-12px); }
+    0%, 100% { transform: translateY(0) scale(1.8); }
+    50% { transform: translateY(-12px) scale(1.8); }
 }
 
 .elenco, .noticias {
@@ -331,7 +335,7 @@ h2 {
     .hero {
         flex-direction: column;
         text-align: center;
-        padding: 3rem 5%;
+        padding: 2rem 5%;
     }
 
     .hero h1 {
@@ -339,9 +343,9 @@ h2 {
     }
 
     .shield-img {
-        width: 1080px;
-        max-width: 95%;
-        margin-top: 2rem;
+        width: 95vw;
+        transform: scale(1.6);
+        margin-top: 1rem;
     }
 
     .nav {
@@ -396,7 +400,7 @@ h2 {
     }
 
     .shield-img {
-        width: 840px;
-        max-width: 95%;
+        width: 95vw;
+        transform: scale(1.5);
     }
 }
